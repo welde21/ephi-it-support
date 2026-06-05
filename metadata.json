@@ -1,0 +1,6 @@
+{
+  "name": "EPHI ICT Support Copilot",
+  "description": "An intelligent ICT Support Copilot designed to support EPHI staff and helpdesk personnel with troubleshooting, dashboard metrics, and automated logging.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
