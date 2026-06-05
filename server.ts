@@ -646,4 +646,10 @@ const bootstrap = async () => {
   });
 };
 
-bootstrap();
+if (process.env.VERCEL === "1" || process.env.VERCEL) {
+  console.log("Vercel serverless function environment detected. Skipping direct listen.");
+} else {
+  bootstrap();
+}
+
+export default app;
